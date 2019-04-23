@@ -1,0 +1,581 @@
+fileFormatVersion: 2
+guid: 2b52b1b38c73c2d469bbebe07c7943d4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1601616062462494224
+    second: NPCPlaceholders_0
+  - first:
+      213: -7690446512122527368
+    second: NPCPlaceholders_1
+  - first:
+      213: -146131105581068750
+    second: NPCPlaceholders_2
+  - first:
+      213: 1865869451214101214
+    second: NPCPlaceholders_3
+  - first:
+      213: -6991727631093299262
+    second: NPCPlaceholders_4
+  - first:
+      213: -1168666393814301887
+    second: NPCPlaceholders_5
+  - first:
+      213: -1259874792406862776
+    second: NPCPlaceholders_6
+  - first:
+      213: -3730342031300613644
+    second: NPCPlaceholders_7
+  - first:
+      213: 9189945210232690914
+    second: NPCPlaceholders_8
+  - first:
+      213: 5207533577919592101
+    second: NPCPlaceholders_9
+  - first:
+      213: -1256128947088700000
+    second: NPCPlaceholders_10
+  - first:
+      213: 5576308514625277467
+    second: NPCPlaceholders_11
+  - first:
+      213: -7503353602098787205
+    second: NPCPlaceholders_12
+  - first:
+      213: 6092094832785274194
+    second: NPCPlaceholders_13
+  - first:
+      213: 5262903980329027466
+    second: NPCPlaceholders_14
+  - first:
+      213: -1710070333294700492
+    second: NPCPlaceholders_15
+  - first:
+      213: -3861399442822676848
+    second: NPCPlaceholders_16
+  - first:
+      213: -3763769249767418716
+    second: NPCPlaceholders_17
+  - first:
+      213: -8855982520332653088
+    second: NPCPlaceholders_18
+  - first:
+      213: -2627449838918719948
+    second: NPCPlaceholders_19
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 70
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NPCPlaceholders_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 290
+        width: 30
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce38a0aa55453c4b8a59e45ff115e99
+      internalID: -1601616062462494224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCPlaceholders_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 289
+        width: 30
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d80da532d669341839d23d8150e895
+      internalID: -7690446512122527368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCPlaceholders_2
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 292
+        width: 30
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5583d992b433db41b666fec722fa4c5
+      internalID: -146131105581068750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCPlaceholders_3
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 292
+        width: 38
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e6351e94d77704c8cb6d2713f4ddda
+      internalID: 1865869451214101214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCPlaceholders_4
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 291
+        width: 37
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 0, z: 2, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b54ac675a9719ea4d9687abce8b52bce
+      internalID: -6991727631093299262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCPlaceholders_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 196
+        width: 30
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f22340412b2f044932eb6d56217f57
+      internalID: -1168666393814301887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCPlaceholders_6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 196
+        width: 30
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1c6c2d23691ba4091c43b378876376
+      internalID: -1259874792406862776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCPlaceholders_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 196
+        width: 30
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63dfa938b9d8637458d91a2a639d2b03
+      internalID: -3730342031300613644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCPlaceholders_8
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 194
+        width: 30
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595b48abb149c2d4aa4c0425144d927b
+      internalID: 9189945210232690914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCPlaceholders_9
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 196
+        width: 30
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6933afebf8acd694b920e07d28503830
+      internalID: 5207533577919592101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCPlaceholders_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 100
+        width: 30
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3c3568bf2246543879c154c585c78d
+      internalID: -1256128947088700000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCPlaceholders_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 100
+        width: 30
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e81c9fd009b5749afd5d03a6920184
+      internalID: 5576308514625277467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCPlaceholders_12
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 98
+        width: 30
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331c183d91440054abb97d635d11c74a
+      internalID: -7503353602098787205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCPlaceholders_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 100
+        width: 30
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee399754ac1f6f840aa57ac8f4e03a2f
+      internalID: 6092094832785274194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCPlaceholders_14
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 100
+        width: 30
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e423ffbc92dfa40b270b25601da838
+      internalID: 5262903980329027466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCPlaceholders_15
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 4
+        width: 30
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f59718d6af99941bb5c1f1ce76e485
+      internalID: -1710070333294700492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCPlaceholders_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 4
+        width: 30
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ecd543aebd7667478c6c8c40b9c5793
+      internalID: -3861399442822676848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCPlaceholders_17
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 4
+        width: 30
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3067a31b78c29c46b9b3f6f7a6700ed
+      internalID: -3763769249767418716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCPlaceholders_18
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 4
+        width: 30
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6d8309e95b0944a96f333f52fea9c2
+      internalID: -8855982520332653088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCPlaceholders_19
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 2
+        width: 61
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179a10a3255a2fc49b0f5cb9f5deaed7
+      internalID: -2627449838918719948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 690b1e1d0653cf04c859d8554b95976a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
