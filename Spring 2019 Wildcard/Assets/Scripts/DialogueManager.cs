@@ -11,6 +11,7 @@ public class DialogueManager : MonoBehaviour
     public Animator animator;
 
     public bool typing = false;
+    public bool talking = false;
     public string currentSentence;
 
     public Queue<string> dialogue;
@@ -19,7 +20,6 @@ public class DialogueManager : MonoBehaviour
     {
         dialogue = new Queue<string>();
     }
-
     public void startDisplay(Dialogue lines)
     {
         dialogue.Clear();
@@ -31,7 +31,6 @@ public class DialogueManager : MonoBehaviour
         }
         displayNext();
     }
-
     public void displayNext()
     {
         if(dialogue.Count == 0)
@@ -39,7 +38,7 @@ public class DialogueManager : MonoBehaviour
             endDialogue();
             return;
         }
-
+        talking = true;
         //StopAllCoroutines();
         if (typing)
         {
@@ -55,7 +54,6 @@ public class DialogueManager : MonoBehaviour
         }
        // dialogueText.text = dialogue.Dequeue();
     }
-
     IEnumerator TypeSentence (string sentence)
     {
         dialogueText.text = "";
@@ -66,9 +64,9 @@ public class DialogueManager : MonoBehaviour
             yield return null;
         }
     }
-
     public void endDialogue()
     {
         animator.SetBool("isOpen", false);
+        talking = false;
     }
 }
