@@ -7,11 +7,13 @@ public class playerMovement : MonoBehaviour
     float moveSpeed = 5f;
     //float dirX, dirY;
     float xSpeed, ySpeed;
+    public Animator m_Animator = null;
+    
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        m_Animator.speed = 0;
     }
 
     // Update is called once per frame
@@ -22,6 +24,11 @@ public class playerMovement : MonoBehaviour
         xSpeed = Input.GetAxis("Horizontal") * moveSpeed;
         ySpeed = Input.GetAxis("Vertical") * moveSpeed;
 
+        if (m_Animator)
+        {
+            m_Animator.SetFloat("Speed", Mathf.Abs(Input.GetAxis("Horizontal") * Input.GetAxis("Vertical") * moveSpeed));
+            Debug.Log(Mathf.Abs((Input.GetAxis("Horizontal") + Input.GetAxis("Vertical")) * moveSpeed));
+        }
 
         //transform.position = new Vector2(transform.position.x + dirX, transform.position.y + dirY);
         this.GetComponent<Rigidbody2D>().velocity = new Vector2(xSpeed, ySpeed);

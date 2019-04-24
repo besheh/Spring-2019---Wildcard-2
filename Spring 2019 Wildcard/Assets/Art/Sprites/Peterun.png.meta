@@ -1,7 +1,88 @@
 fileFormatVersion: 2
 guid: 4fbf61a30474a8348b117bb19f9343de
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 656429252209017382
+    second: Peterun_0
+  - first:
+      213: -8068920264840534359
+    second: Peterun_1
+  - first:
+      213: 186747414831235388
+    second: Peterun_2
+  - first:
+      213: 5541876206914362111
+    second: Peterun_3
+  - first:
+      213: -7528376451700924335
+    second: Peterun_4
+  - first:
+      213: -5067372751495012168
+    second: Peterun_5
+  - first:
+      213: -5443283350097334249
+    second: Peterun_6
+  - first:
+      213: 7084080087952120375
+    second: Peterun_7
+  - first:
+      213: -1839243953390350787
+    second: Peterun_8
+  - first:
+      213: -8619650469637105108
+    second: Peterun_9
+  - first:
+      213: 2815904929034684445
+    second: Peterun_10
+  - first:
+      213: -567250931085571605
+    second: Peterun_11
+  - first:
+      213: 5277379704185543930
+    second: Peterun_12
+  - first:
+      213: 6116178988484491610
+    second: Peterun_13
+  - first:
+      213: -8463739474097682766
+    second: Peterun_14
+  - first:
+      213: -1077137685712772594
+    second: Peterun_15
+  - first:
+      213: 6010767774729960230
+    second: Peterun_16
+  - first:
+      213: 3314684597833751219
+    second: Peterun_17
+  - first:
+      213: 428115923641132541
+    second: Peterun_18
+  - first:
+      213: 7706584396995927376
+    second: Peterun_19
+  - first:
+      213: -8219428132624261200
+    second: Peterun_20
+  - first:
+      213: -6061445801488810818
+    second: Peterun_21
+  - first:
+      213: 945362742355685693
+    second: Peterun_22
+  - first:
+      213: -6920494912859873116
+    second: Peterun_23
+  - first:
+      213: -933784372410019386
+    second: Peterun_24
+  - first:
+      213: -5320180734180702369
+    second: Peterun_25
+  - first:
+      213: 5854978882033713469
+    second: Peterun_26
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,12 +121,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 213
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -69,9 +150,587 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Peterun_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 424
+        width: 202
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a61d0e67e74daa4f8e6d854341de46c
+      internalID: 656429252209017382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peterun_1
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 424
+        width: 204
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24811d2f0f937241880ff06b7c07da6
+      internalID: -8068920264840534359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peterun_2
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 424
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b7c8dea3f7ea94aa2e8456046c56b0
+      internalID: 186747414831235388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peterun_3
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 425
+        width: 205
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79e256a0be424e449cf30d34c47167a
+      internalID: 5541876206914362111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peterun_4
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 425
+        width: 206
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc5bc5327eb7cc4396a1f4af8c190d4
+      internalID: -7528376451700924335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peterun_5
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 425
+        width: 206
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb85408f98ec69a43ba55ffba707d645
+      internalID: -5067372751495012168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peterun_6
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 426
+        width: 207
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d4c06be2df9a445b6dc11358f8879d
+      internalID: -5443283350097334249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peterun_7
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 426
+        width: 209
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec4c0c691ce5cc40a83787caa7bdde3
+      internalID: 7084080087952120375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peterun_8
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 426
+        width: 209
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd77f6d805bfe64f9830ea2614847c2
+      internalID: -1839243953390350787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peterun_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 216
+        width: 211
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92bb68679ea30fe4ea29c39e34c43f4a
+      internalID: -8619650469637105108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peterun_10
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 215
+        width: 211
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655ca67f2b33f4245854882ac5764b8e
+      internalID: 2815904929034684445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peterun_11
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 215
+        width: 212
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc79f536f4227ef43a1bbdf52a1c91b0
+      internalID: -567250931085571605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peterun_12
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 215
+        width: 212
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e9c8b87fb7557a4ea09d41fe5c4715f
+      internalID: 5277379704185543930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peterun_13
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 214
+        width: 212
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df26e62a99ced3440945ab9379b4f77f
+      internalID: 6116178988484491610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peterun_14
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 214
+        width: 213
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385f78900c688f942a64d6a84e91455a
+      internalID: -8463739474097682766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peterun_15
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 214
+        width: 212
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2587aacdd49a9fa41b72cb5d19a6693f
+      internalID: -1077137685712772594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peterun_16
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 215
+        width: 212
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53007b9a0f47f374b9ec7b5ef21adecd
+      internalID: 6010767774729960230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peterun_17
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 215
+        width: 211
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7bc20d8bd6c6d42b3bd199913daf2c
+      internalID: 3314684597833751219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peterun_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 211
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0112529f2d99a0540ba6753396079428
+      internalID: 428115923641132541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peterun_19
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 6
+        width: 209
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb68c24ee911a2c4c85f03ba5eedffbf
+      internalID: 7706584396995927376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peterun_20
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 6
+        width: 209
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c6682f8de91304ca25a2d9e65c7b3b
+      internalID: -8219428132624261200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peterun_21
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 6
+        width: 207
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346aac6a9e8369e4fb209c6fc7787420
+      internalID: -6061445801488810818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peterun_22
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 6
+        width: 206
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9941d2e20417b494bb5f3512841470a9
+      internalID: 945362742355685693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peterun_23
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 5
+        width: 206
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc614d1ab9f3234d887fd1936cb2dfa
+      internalID: -6920494912859873116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peterun_24
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 5
+        width: 205
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e28930141f4397479d58f6e37ac38c8
+      internalID: -933784372410019386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peterun_25
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 4
+        width: 204
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892aa686e9bc41e49b99baeb3aca224b
+      internalID: -5320180734180702369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peterun_26
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 4
+        width: 202
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd9a375deb9c9b4798319ab51638630
+      internalID: 5854978882033713469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
