@@ -38,6 +38,7 @@ public class playerMovement : MonoBehaviour
         //transform.position = new Vector2(transform.position.x + dirX, transform.position.y + dirY);
         this.GetComponent<Rigidbody2D>().velocity = new Vector2(xSpeed, ySpeed);
 
+
         if (FindObjectOfType<FlagManager>().getFlag(0)) moveSpeed = 10f;
 
         if(Input.GetKeyDown(KeyCode.Z))
