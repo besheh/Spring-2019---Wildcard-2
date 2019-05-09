@@ -31,7 +31,7 @@ public class playerMovement : MonoBehaviour
 
         if (Input.GetAxis("Horizontal") < 0)
             this.GetComponent<SpriteRenderer>().flipX = true;
-        else
+        else if (Input.GetAxis("Horizontal") > 0)
             this.GetComponent<SpriteRenderer>().flipX = false;
 
 
