@@ -5,8 +5,6 @@ using TMPro;
 
 public class HackThornton : MonoBehaviour
 {
-    [SerializeField] TMP_InputField usernameInput = null;
-    [SerializeField] TMP_InputField passwordInput = null;
     [SerializeField] string email = null;
     [SerializeField] string password = null;
     [SerializeField] string guessedEmail = null;

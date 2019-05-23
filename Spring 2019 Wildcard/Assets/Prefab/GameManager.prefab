@@ -10,10 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 248604982853802448}
   - component: {fileID: 570184003626081038}
+  - component: {fileID: 8125277575035435807}
   - component: {fileID: 5593386052963645497}
   - component: {fileID: -4518597248842833652}
   m_Layer: 0
-  m_Name: Manager
+  m_Name: GameManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -81,6 +82,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8125277575035435807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4607150576784894285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6420e4b78fbbc245b4707812df7cb72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &5593386052963645497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -111,3 +124,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37197a05110932d468a475c6d5d2b1e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  flags: 0000
