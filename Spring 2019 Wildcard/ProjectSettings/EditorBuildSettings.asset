@@ -8,4 +8,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main Scene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Hannah Scene.unity
+    guid: b9fb66972197d2d44baf26599b537349
+  - enabled: 1
+    path: Assets/Scenes/Area1.unity
+    guid: b94933cc9c03b264fb723fd277a3162d
+  - enabled: 1
+    path: Assets/Scenes/Area2.unity
+    guid: e7308855e1d93824681acc8f7a421ed8
+  - enabled: 1
+    path: Assets/Scenes/Area3.unity
+    guid: d5ca2f5e33a15c340b1330ba1fc726f8
+  - enabled: 1
+    path: Assets/Scenes/Area4.unity
+    guid: 819d6cae49a93654898797fe179eb6d5
+  - enabled: 1
+    path: Assets/Scenes/Area5.unity
+    guid: b331219252d6a9940a3a81a28a37473a
+  - enabled: 1
+    path: Assets/Scenes/Area6.unity
+    guid: b988f9ab0c05082459cbfff304eddf64
   m_configObjects: {}
