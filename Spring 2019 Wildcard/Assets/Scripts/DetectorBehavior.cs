@@ -4,17 +4,15 @@ using UnityEngine;
 
 public class DetectorBehavior : MonoBehaviour
 {
-    // Start is called before the first frame update
-    public playerMovement target;
+    public playerMovement target;//literally should only ever be Player
     public float range;
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if ((transform.position - target.transform.position).sqrMagnitude < range) target.getCaught();
+        if ((transform.position - target.transform.position).sqrMagnitude < range) target.getCaught(); //if player's in range, call getCaught
     }
 }

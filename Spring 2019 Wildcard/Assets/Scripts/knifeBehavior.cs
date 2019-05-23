@@ -5,19 +5,8 @@ using UnityEngine;
 
 public class knifeBehavior : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
 
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    void OnTriggerEnter2D(Collider2D col)
+    void OnTriggerEnter2D(Collider2D col)//check collision, if its an npc, kill it and itself
     {
         Trigger trig = col.GetComponent<Trigger>();
         if (trig != null)
@@ -28,7 +17,7 @@ public class knifeBehavior : MonoBehaviour
         return;
     }
 
-    public void setUp(float moveSpeed)
+    public void setUp(float moveSpeed)//point towards mouse, move
     {
         Vector3 point = Input.mousePosition;
         point = Camera.main.ScreenToWorldPoint(point);

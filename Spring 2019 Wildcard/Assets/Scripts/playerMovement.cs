@@ -41,6 +41,7 @@ public class playerMovement : MonoBehaviour
         //transform.position = new Vector2(transform.position.x + dirX, transform.position.y + dirY);
         this.GetComponent<Rigidbody2D>().velocity = new Vector2(xSpeed, ySpeed);
 
+        //example flag usage, we could also move it to flagmanager and change values there
         FlagManager manager = FindObjectOfType<FlagManager>();
         if (manager != null)
         {

@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Follower : MonoBehaviour
+public class Follower : MonoBehaviour//just follows a detector to show range
 {
-    // Start is called before the first frame update
     public GameObject target;
     void Start()
     {
@@ -12,7 +11,6 @@ public class Follower : MonoBehaviour
         transform.localScale *= new Vector2(size / 5, size / 5);
     }
 
-    // Update is called once per frame
     void Update()
     {
         transform.position = target.transform.position;
