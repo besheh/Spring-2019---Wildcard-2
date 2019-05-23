@@ -8,7 +8,8 @@ public class Follower : MonoBehaviour
     public GameObject target;
     void Start()
     {
-        
+        float size = target.GetComponent<DetectorBehavior>().range;
+        transform.localScale *= new Vector2(size / 5, size / 5);
     }
 
     // Update is called once per frame
