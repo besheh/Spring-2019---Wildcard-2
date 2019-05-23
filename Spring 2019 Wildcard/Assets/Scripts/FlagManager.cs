@@ -4,13 +4,7 @@ using UnityEngine;
 
 public class FlagManager : MonoBehaviour
 {
-
     public bool[] flags = new bool[2];
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public void upFlag(int index)
     {

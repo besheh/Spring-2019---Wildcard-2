@@ -9,7 +9,7 @@ public class Trigger : MonoBehaviour
 
     public void startTalking()
     {
-        FindObjectOfType<DialogueManager>().startDisplay(sentence);
+        if(sentence != null) FindObjectOfType<DialogueManager>().startDisplay(sentence);
         FindObjectOfType<FlagManager>().upFlag(triggerIndex);
     }
 }

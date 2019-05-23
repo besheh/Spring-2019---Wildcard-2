@@ -20,18 +20,20 @@ public class DialogueManager : MonoBehaviour
     {
         dialogue = new Queue<string>();
     }
-    public void startDisplay(Dialogue lines)
+
+    public void startDisplay(Dialogue lines)//called by Trigger. 
     {
         dialogue.Clear();
         nameText.text = lines.name;
-        animator.SetBool("isOpen", true);
+        animator.SetBool("isOpen", true);//clear current dialogue, set name, bring up box
         foreach(string line in lines.sentences)
         {
             dialogue.Enqueue(line);
         }
-        displayNext();
+        displayNext();//set up lines, start displaying
     }
-    public void displayNext()
+
+    public void displayNext()//called by ^ and playerMovement
     {
         if(dialogue.Count == 0)
         {
@@ -54,7 +56,8 @@ public class DialogueManager : MonoBehaviour
         }
        // dialogueText.text = dialogue.Dequeue();
     }
-    IEnumerator TypeSentence (string sentence)
+
+    IEnumerator TypeSentence (string sentence)//type the next char
     {
         dialogueText.text = "";
         foreach(char letter in sentence.ToCharArray())
@@ -64,7 +67,8 @@ public class DialogueManager : MonoBehaviour
             yield return null;
         }
     }
-    public void endDialogue()
+
+    public void endDialogue()//set bools, bring dialogue box down
     {
         animator.SetBool("isOpen", false);
         talking = false;

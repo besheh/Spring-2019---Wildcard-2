@@ -154,7 +154,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 344883783
-  m_SortingLayer: 4
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: -3441441510138258058, guid: a9c81959d0a0ac04282398f6c3bec9c9,
     type: 3}
@@ -181,6 +181,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Animator: {fileID: 7323445257612933385}
+  knifePrefab: {fileID: 3356414641132082912, guid: e2e4699a8f3663948b99d44f412777b9,
+    type: 3}
 --- !u!50 &7037646456159116733
 Rigidbody2D:
   serializedVersion: 4

@@ -2,13 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class playerMovement : MonoBehaviour
 {
-    float moveSpeed = 5f;
+    public float moveSpeed;
+    public float shotSpeed;
     //float dirX, dirY;
-    float xSpeed, ySpeed;
+    public float xSpeed, ySpeed;
     public Animator m_Animator;
-    
+    public bool canThrow;
+    public GameObject knifePrefab;
 
     // Start is called before the first frame update
     void Start()
@@ -38,8 +41,12 @@ public class playerMovement : MonoBehaviour
         //transform.position = new Vector2(transform.position.x + dirX, transform.position.y + dirY);
         this.GetComponent<Rigidbody2D>().velocity = new Vector2(xSpeed, ySpeed);
 
-
-        if (FindObjectOfType<FlagManager>().getFlag(0)) moveSpeed = 10f;
+        //example flag usage, we could also move it to flagmanager and change values there
+        FlagManager manager = FindObjectOfType<FlagManager>();
+        if (manager != null)
+        {
+            if(manager.getFlag(0)) moveSpeed = 10f;
+        }
 
         if(Input.GetKeyDown(KeyCode.Z))
         {
@@ -65,5 +72,18 @@ public class playerMovement : MonoBehaviour
             }
         }
 
+        if (Input.GetMouseButtonDown(0) && canThrow) {
+            knifeBehavior knife = Instantiate(knifePrefab, transform.position, transform.rotation).GetComponent<knifeBehavior>();
+            knife.setUp(shotSpeed);
+            canThrow = false;
+        }
+
+
+    }
+
+    public void getCaught()
+    {
+        canThrow = true;
+        transform.position = new Vector2(-10, 0);
     }
 }
