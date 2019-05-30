@@ -21,11 +21,17 @@ public class Shop : MonoBehaviour
         
     }
 
-    void fillList()
+    void FillList()
     {
         for (int i = 0; i < itemList.Count; i++ )
         {
             GameObject holder = Instantiate(itemHolderPrefab, grid);
+            ItemHolder holderScript = holder.GetComponent<ItemHolder>();
+
+            holderScript.itemName.text = itemList[i].itemName;
+            holderScript.itemPrice.text = "$ " + itemList[i].price.ToString("N2");
+            holderScript.itemID = itemList[i].ID;
+            holderScript.itemIcon.sprite = itemList[i].icon;
 
 
         }

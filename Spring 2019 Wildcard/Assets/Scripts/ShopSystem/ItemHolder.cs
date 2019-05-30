@@ -6,6 +6,7 @@ using TMPro;
 
 public class ItemHolder : MonoBehaviour
 {
+    public int itemID;
     public TMP_Text itemName;
     public TMP_Text itemPrice;
     public Image itemIcon;
