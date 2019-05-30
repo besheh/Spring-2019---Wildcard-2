@@ -23,7 +23,7 @@ public class Shop : MonoBehaviour
 
     void fillList()
     {
-        for (int i = 0, i < itemList.Count; i++ )
+        for (int i = 0; i < itemList.Count; i++ )
         {
             GameObject holder = Instantiate(itemHolderPrefab, grid);
 
